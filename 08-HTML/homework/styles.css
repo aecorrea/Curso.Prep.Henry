@@ -1,15 +1,23 @@
+body {
+	background-image: repeating-conic-gradient(lightgoldenrodyellow 10%, darkkhaki 20%);
+	
+}
+
+}
 h1 {
 	color: teal;
 }
 
 #thirdDiv {
-	height: 600px;
-	width: 500px;
+	height: 920px;
+	width: auto;
 	background-color: seagreen;
 	padding: 50px;
 	border: 15px;
 	border-style: groove;
 	border-color: darkcyan;
+}
+
 }
 
 #spanId {
@@ -20,4 +28,22 @@ h1 {
 img {
 	height: 400px;
 	width: auto;
+}
+
+
+#thirdDiv {
+	height: 920px;
+	width: auto;
+	background-color: seagreen;
+	padding: 50px;
+	border: 15px;
+	border-style: groove;
+	border-color: darkcyan;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+ }
+
+ .divClass {
+ 	text-align: center;
 }
